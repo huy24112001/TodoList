@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.iconRemove :hover{
+  color: red;
+}
+.iconEdit{
+  display: none;
+}
+.iconEdit :hover{
+  color: red;
+}
+.listButton :hover
+.icon{
+  display: inline-block;
+}
+  .iconRemove {
+  display: inline-block;
+  }
+.iconEdit{
+  display: inline-block;
+}
+
+
